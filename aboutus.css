@@ -1,0 +1,23 @@
+body {
+  	background-color: #e6f5ff;
+    font-family: 'Comfortaa', cursive;
+
+}
+h4 {
+  font-family: 'Comfortaa', cursive;
+	text-align: center;
+}
+h2 {
+  font-family: 'Comfortaa', cursive;
+  text-align: center;
+}
+article {
+margin-left: 30px;
+margin-right: 30px;
+}
+header {
+	background-image: url("cloudheader.png");
+	height: 170px;
+	margin-top: 0;
+	background-position: bottom;
+}
