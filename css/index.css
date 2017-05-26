@@ -8,12 +8,26 @@ header {
 	background-position: bottom;
 }
 h1 {
-	font-family: Optima, "Lucida Grande", "Lucida Sans Unicode", Verdana, Helvetica, Arial, sans-serif;
+	font-family: "Pacifico", Verdana, Helvetica, Arial, sans-serif;
 	text-align: center;
 	font-size: 50px;
 	padding-top: 110px;
 	color: white;
 }
+
+h3 {
+	font-family: Verdana, sans-serif;
+	font-size: 23px;
+	padding-bottom: 10px;
+	color: white;
+}
+
+.boxes {
+	font-family: 'Raleway', sans-serif;
+	list-style-type: disc;
+}
+
+/*beginning of navbar*/
 nav {
   height: 60px;
   margin-top: 15px;
@@ -105,21 +119,73 @@ nav p {
 #inner li a#donate {
     color: red;
 }
+/*end of navbar*/
 
-article.sad {
+article.sad, article.happy {
 	width: 300px;
-	height: 500px;
-	padding: 25px;
-	margin: 5px;
+	height: 280px;
+	padding-left: 30px;
+	padding-top: 15px;
+	padding-right: 15px;
+	padding-bottom: 10px;
+	margin-top: 5px;
+	margin-right: 20px;
+	margin-left: 20px;
+	margin-bottom: 20px;
 	float: left;
 	text-align: left;
+	background-color: rgba(0, 107, 179, 0.6);
 }
 
-article.happy {
-	width: 300px;
-	height: 500px;
-	padding:25px;
-	margin: 5px;
+h2 {
+	font-size: 30px;
+	padding-top: 40px;
+	font-family: Optima, "Lucida Grande", "Lucida Sans Unicode", Verdana, Helvetica, Arial, sans-serif;
+}
+
+img.paw {
+	padding-right: 10px;
+}
+
+.love {
+	font-size: 1.7em;
 	float: left;
-	text-align: left;
+	display: inline-block;
+	padding-top: 20px;
+}
+
+.paw {
+	width: 50px;
+	height: 50px;
+	padding-left: 10px;
+	float: left;
+	display: inline-block;
+}
+
+div {
+	clear: left;
+	padding-top: 20px;
+}
+
+li {
+	padding-top: 10px;
+}
+
+footer {
+	clear: left;
+	padding: 5px;
+	margin-top: 30px;
+	background-color: rgba(0, 107, 179, 0.2);
+	font-family: Optima, "Lucida Grande", "Lucida Sans Unicode", Verdana, Helvetica, Arial, sans-serif;
+	position: fixed;
+	bottom: 0;
+}
+
+#bodytext p {
+	font-family: Optima, "Lucida Grande", "Lucida Sans Unicode", Verdana, Helvetica, Arial, sans-serif;
+	color: #004d80;
+	font-size: 20px;
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
 }
