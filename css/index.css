@@ -1,3 +1,4 @@
+
 body {
 	background-color: #e6f5ff;
 }
@@ -100,8 +101,4 @@ nav p {
   color: #006bb3;
   background-color: white;
   border-color: #006bb3;
-}
-
-#inner li a#donate {
-    color: red;
 }
