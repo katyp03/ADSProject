@@ -121,13 +121,13 @@ nav p {
 }
 /*end of navbar*/
 
-article.sad, article.happy {
+div.sad, div.happy {
 	width: 300px;
-	height: 280px;
-	padding-left: 30px;
+	height: 350px;
+	padding-left: 35px;
 	padding-top: 15px;
-	padding-right: 15px;
-	padding-bottom: 10px;
+	padding-right: 25px;
+	padding-bottom: 15px;
 	margin-top: 5px;
 	margin-right: 20px;
 	margin-left: 20px;
@@ -135,6 +135,7 @@ article.sad, article.happy {
 	float: left;
 	text-align: left;
 	background-color: rgba(0, 107, 179, 0.6);
+	line-height: 1.4;
 }
 
 h2 {
@@ -157,18 +158,18 @@ img.paw {
 .paw {
 	width: 50px;
 	height: 50px;
-	padding-left: 10px;
+	padding-left: 20px;
 	float: left;
 	display: inline-block;
 }
 
-div {
+div#bodytext {
 	clear: left;
 	padding-top: 20px;
 }
 
 li {
-	padding-top: 10px;
+	padding-top: 8px;
 }
 
 footer {
@@ -176,16 +177,35 @@ footer {
 	padding: 5px;
 	margin-top: 30px;
 	background-color: rgba(0, 107, 179, 0.2);
-	font-family: Optima, "Lucida Grande", "Lucida Sans Unicode", Verdana, Helvetica, Arial, sans-serif;
-	position: fixed;
 	bottom: 0;
+	position: relative;
+	width: 100%;
+	font-family: Optima, "Lucida Grande", "Lucida Sans Unicode", Verdana, Helvetica, Arial, sans-serif;
 }
 
-#bodytext p {
+#info p {
 	font-family: Optima, "Lucida Grande", "Lucida Sans Unicode", Verdana, Helvetica, Arial, sans-serif;
 	color: #004d80;
 	font-size: 20px;
 	text-align: center;
 	padding-top: 10px;
 	padding-bottom: 10px;
+	padding-left: 50px;
+	line-height: 1.4;
+	width: 500px;
+	float: left;
 }
+
+/*@media (max-width: 400px) {
+	h1 {
+		max-width: 
+	}
+}
+
+@media (min-width: 401px;) and (max-width: 800px) {
+	img
+}
+
+@media (min-width: 801px) {
+	img
+}*/
