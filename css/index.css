@@ -3,16 +3,23 @@ body {
 }
 header {
 	background-image: url("cloudheader.png");
-	height: 170px;
 	margin-top: 0;
 	background-position: bottom;
+	background-image-height: 170px;
 }
 h1 {
 	font-family: "Pacifico", Verdana, Helvetica, Arial, sans-serif;
 	text-align: center;
 	font-size: 50px;
 	padding-top: 110px;
+	padding-bottom: 10px;
 	color: white;
+}
+
+h2 {
+	font-size: 30px;
+	padding-top: 40px;
+	font-family: Optima, "Lucida Grande", "Lucida Sans Unicode", Verdana, Helvetica, Arial, sans-serif;
 }
 
 h3 {
@@ -138,12 +145,6 @@ div.sad, div.happy {
 	line-height: 1.4;
 }
 
-h2 {
-	font-size: 30px;
-	padding-top: 40px;
-	font-family: Optima, "Lucida Grande", "Lucida Sans Unicode", Verdana, Helvetica, Arial, sans-serif;
-}
-
 img.paw {
 	padding-right: 10px;
 }
@@ -196,16 +197,50 @@ footer {
 	float: left;
 }
 
-/*@media (max-width: 400px) {
+@media (max-width: 400px) {
+	header {
+		height: 110px;
+	}
 	h1 {
-		max-width: 
+		width: 90%;
+		padding-top: 55px;
+		font-size: 2em;
+	}
+	h2 {
+		width: 80%;
+		font-size: 1.8em;
+		text-align: center;
+		padding-top: 15px;
+	}
+	h2 .paw {
+		width: 33px;
+		height: 33px;
+	}
+	.happy {
+		clear: left;
+	}
+	#bodytext {
+		width: 340px;
 	}
 }
 
-@media (min-width: 401px;) and (max-width: 800px) {
-	img
+@media (min-width: 401px) and (max-width: 800px) {
+	h1 {
+		width: 300px;
+	}
+	h2 {
+		width: 600px;
+	}
+	div.happy {
+		clear: left;
+	}
+	#bodytext div.sad, div.happy {
+		min-width: 2em;
+	}
 }
 
 @media (min-width: 801px) {
-	img
-}*/
+	/*h1 {
+		max-width: 400px;
+	}*/
+}
