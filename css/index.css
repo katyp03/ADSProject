@@ -203,14 +203,15 @@ footer {
 	}
 	h1 {
 		width: 90%;
-		padding-top: 55px;
-		font-size: 2em;
+		padding-top: 60px;
+		font-size: 1.8em;
 	}
 	h2 {
 		width: 80%;
-		font-size: 1.8em;
+		font-size: 1.6em;
 		text-align: center;
 		padding-top: 15px;
+		margin-left: 30px;
 	}
 	h2 .paw {
 		width: 33px;
@@ -219,13 +220,35 @@ footer {
 	.happy {
 		clear: left;
 	}
-	#bodytext {
-		width: 340px;
+	h3 {
+		font-size: 22px;
+	}
+	div.sad, div.happy {
+	width: 280px;
+	height: 350px;
+	padding-left: 25px;
+	padding-top: 10px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+	margin-top: 2px;
+	margin-right: 10px;
+	margin-left: 15px;
+	margin-bottom: 10px;
+	}
+	#info p {
+	font-size: 20px;
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+	line-height: 1.4;
+	width: 90%;
 	}
 }
 
 @media (min-width: 401px) and (max-width: 800px) {
-	h1 {
+	/*h1 {
 		width: 300px;
 	}
 	h2 {
@@ -234,9 +257,7 @@ footer {
 	div.happy {
 		clear: left;
 	}
-	#bodytext div.sad, div.happy {
-		min-width: 2em;
-	}
+	*/
 }
 
 @media (min-width: 801px) {
