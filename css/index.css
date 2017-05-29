@@ -197,6 +197,10 @@ footer {
 	float: left;
 }
 
+#navbar, #love, #bodytext {
+	margin-left: 10px;
+}
+
 @media (max-width: 400px) {
 	header {
 		height: 110px;
@@ -248,20 +252,105 @@ footer {
 }
 
 @media (min-width: 401px) and (max-width: 800px) {
-	/*h1 {
-		width: 300px;
-	}
-	h2 {
-		width: 600px;
-	}
 	div.happy {
 		clear: left;
 	}
-	*/
+	header {
+		height: 130px;
+		width: 100%;
+		background-image: cover;
+	}
+	h1 {
+		width: 80%;
+		padding-top: 80px;
+		font-size: 2.5em;
+	}
+	h2 {
+		width: 80%;
+		font-size: 1.7em;
+		padding-top: 15px;
+		margin-left: 30px;
+	}
+	/*h2 .paw {
+		width: 33px;
+		height: 33px;
+	}*/
+	.happy {
+		clear: left;
+	}
+	h3 {
+		font-size: 23px;
+	}
+	div.sad, div.happy {
+	width: 300px;
+	height: 350px;
+	padding-left: 30px;
+	padding-top: 10px;
+	padding-right: 15px;
+	padding-bottom: 10px;
+	margin-top: 2px;
+	margin-right: 10px;
+	margin-left: 40px;
+	margin-bottom: 10px;
+	}
+	#info p {
+	font-size: 20px;
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+	line-height: 1.4;
+	width: 75%;
+	}
 }
 
 @media (min-width: 801px) {
-	/*h1 {
-		max-width: 400px;
+	/*header {
+		height: 110px;
+	}
+	h1 {
+		width: 90%;
+		padding-top: 60px;
+		font-size: 1.8em;
+	}
+	h2 {
+		width: 80%;
+		font-size: 1.6em;
+		text-align: center;
+		padding-top: 15px;
+		margin-left: 30px;
+	}
+	h2 .paw {
+		width: 33px;
+		height: 33px;
+	}
+	.happy {
+		clear: left;
+	}
+	h3 {
+		font-size: 22px;
+	}
+	div.sad, div.happy {
+	width: 280px;
+	height: 350px;
+	padding-left: 25px;
+	padding-top: 10px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+	margin-top: 2px;
+	margin-right: 10px;
+	margin-left: 15px;
+	margin-bottom: 10px;
+	}
+	#info p {
+	font-size: 20px;
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+	line-height: 1.4;
+	width: 90%;
 	}*/
 }
