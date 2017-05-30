@@ -188,13 +188,23 @@ span {
 
 footer {
 	clear: left;
-	padding: 5px;
-	margin-top: 30px;
+	margin-top: 50px;
+	padding-top: 5px;
+	padding-right: 5px;
+	padding-left: 30px;
+	padding-bottom: 15px;
 	background-color: rgba(0, 107, 179, 0.2);
 	bottom: 0;
 	position: relative;
 	width: 100%;
 	font-family: Optima, "Lucida Grande", "Lucida Sans Unicode", Verdana, Helvetica, Arial, sans-serif;
+}
+
+footer #adopt {
+	height: 70px;
+	float: right;
+	clear: right;
+	padding-right: 40px;
 }
 
 #info p {
@@ -271,7 +281,11 @@ footer {
 	#navbar, #love, #bodytext {
 	margin-left: 15px;
 	margin-right: 15px;
-}
+	}
+	footer #adopt {
+	height: 70px;
+	padding-right: 15px;
+	}
 }
 
 @media (min-width: 401px) and (max-width: 800px) {
@@ -328,6 +342,10 @@ footer {
 	#navbar, #love, #bodytext {
 	margin-left: 25px;
 	margin-right: 25px;
+	}
+	footer #adopt {
+	height: 85px;
+	padding-right: 20px;
 	}
 }
 
