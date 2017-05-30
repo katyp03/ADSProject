@@ -56,7 +56,7 @@ nav div#navbar {
 }
 
 nav div#navbar:hover {
-  width: 99%;
+  width: 90%;
 }
 
 nav div#navbar:hover li {
@@ -68,7 +68,7 @@ nav p {
   font-size: 1.2em;
   font-weight: 100;
   color: #006bb3;
-  padding-top: 17px;
+  padding-top: 22px;
   padding-left: 7px;
   height: 50px;
   margin-top: -3px;
@@ -130,7 +130,7 @@ nav p {
 
 div.sad, div.happy {
 	width: 300px;
-	height: 350px;
+	height: 400px;
 	padding-left: 35px;
 	padding-top: 15px;
 	padding-right: 25px;
@@ -147,6 +147,15 @@ div.sad, div.happy {
 
 img.paw {
 	padding-right: 10px;
+	padding-left: 115px;
+}
+
+div.sad img.paw {
+	padding-top: 13px;
+}
+
+div.happy img.paw {
+	padding-top: 20px;
 }
 
 .love {
@@ -173,6 +182,10 @@ li {
 	padding-top: 8px;
 }
 
+span {
+	color: red;
+}
+
 footer {
 	clear: left;
 	padding: 5px;
@@ -193,21 +206,17 @@ footer {
 	padding-bottom: 10px;
 	padding-left: 50px;
 	line-height: 1.4;
-	width: 500px;
+	width: 470px;
 	float: left;
-}
-
-#navbar, #love, #bodytext {
-	margin-left: 10px;
 }
 
 @media (max-width: 400px) {
 	header {
-		height: 110px;
+		height: 140px;
 	}
 	h1 {
 		width: 90%;
-		padding-top: 60px;
+		padding-top: 90px;
 		font-size: 1.8em;
 	}
 	h2 {
@@ -229,7 +238,7 @@ footer {
 	}
 	div.sad, div.happy {
 	width: 280px;
-	height: 350px;
+	height: 395px;
 	padding-left: 25px;
 	padding-top: 10px;
 	padding-right: 10px;
@@ -238,6 +247,16 @@ footer {
 	margin-right: 10px;
 	margin-left: 15px;
 	margin-bottom: 10px;
+	}
+	div.sad {
+		height: 390px;
+	}
+	div.happy {
+		height: 405px;
+	}
+	div.sad img.paw, div.happy img.paw {
+		padding-top: 9px;
+		padding-left: 105px;
 	}
 	#info p {
 	font-size: 20px;
@@ -249,6 +268,10 @@ footer {
 	line-height: 1.4;
 	width: 90%;
 	}
+	#navbar, #love, #bodytext {
+	margin-left: 15px;
+	margin-right: 15px;
+}
 }
 
 @media (min-width: 401px) and (max-width: 800px) {
@@ -256,13 +279,13 @@ footer {
 		clear: left;
 	}
 	header {
-		height: 130px;
+		height: 145px;
 		width: 100%;
 		background-image: cover;
 	}
 	h1 {
 		width: 80%;
-		padding-top: 80px;
+		padding-top: 90px;
 		font-size: 2.5em;
 	}
 	h2 {
@@ -271,10 +294,6 @@ footer {
 		padding-top: 15px;
 		margin-left: 30px;
 	}
-	/*h2 .paw {
-		width: 33px;
-		height: 33px;
-	}*/
 	.happy {
 		clear: left;
 	}
@@ -283,7 +302,7 @@ footer {
 	}
 	div.sad, div.happy {
 	width: 300px;
-	height: 350px;
+	height: 400px;
 	padding-left: 30px;
 	padding-top: 10px;
 	padding-right: 15px;
@@ -292,6 +311,9 @@ footer {
 	margin-right: 10px;
 	margin-left: 40px;
 	margin-bottom: 10px;
+	}
+	div.sad img.paw, div.happy img.paw {
+		padding-top: 10px;
 	}
 	#info p {
 	font-size: 20px;
@@ -303,54 +325,15 @@ footer {
 	line-height: 1.4;
 	width: 75%;
 	}
+	#navbar, #love, #bodytext {
+	margin-left: 25px;
+	margin-right: 25px;
+	}
 }
 
 @media (min-width: 801px) {
-	/*header {
-		height: 110px;
+	#navbar, #love, #bodytext {
+	margin-left: 30px;
+	margin-right: 30px;
 	}
-	h1 {
-		width: 90%;
-		padding-top: 60px;
-		font-size: 1.8em;
-	}
-	h2 {
-		width: 80%;
-		font-size: 1.6em;
-		text-align: center;
-		padding-top: 15px;
-		margin-left: 30px;
-	}
-	h2 .paw {
-		width: 33px;
-		height: 33px;
-	}
-	.happy {
-		clear: left;
-	}
-	h3 {
-		font-size: 22px;
-	}
-	div.sad, div.happy {
-	width: 280px;
-	height: 350px;
-	padding-left: 25px;
-	padding-top: 10px;
-	padding-right: 10px;
-	padding-bottom: 10px;
-	margin-top: 2px;
-	margin-right: 10px;
-	margin-left: 15px;
-	margin-bottom: 10px;
-	}
-	#info p {
-	font-size: 20px;
-	text-align: center;
-	padding-top: 10px;
-	padding-bottom: 10px;
-	padding-left: 10px;
-	padding-right: 10px;
-	line-height: 1.4;
-	width: 90%;
-	}*/
 }
